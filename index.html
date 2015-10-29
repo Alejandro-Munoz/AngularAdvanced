@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Advanced</title>
+
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="./app/app.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 class="jumbotron">List of tasks</h1>
+    <!-- We'll also add some navigation: -->
+
+
+    <a ui-sref="task1">Task 1</a>
+
+    <a ui-sref="task2">Task 2</a>
+    <div ui-view></div>
+
+</div>
+
+</body>
+</html>
